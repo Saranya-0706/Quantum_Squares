@@ -1,12 +1,11 @@
 package com.example.quantum_squares
 
-import android.graphics.Color
 import android.os.Bundle
-import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class GameActivity : AppCompatActivity() {
 
@@ -96,26 +95,34 @@ class GameActivity : AppCompatActivity() {
     // Handle collapsing squares and chain reactions
     private fun handleCollapse(row: Int, col: Int) {
         val square = grid[row][col]
+        val collapsingPlayer = square.owner // The player who owned the square before collapse
         square.particleCount = 0
         square.owner = null
 
-        // Award a point for controlling the square
-        if (currentPlayer == 1) {
+        // Award a point to the player who owned the square before collapse
+        if (collapsingPlayer == 1) {
             player1Score++
-        } else {
+        } else if (collapsingPlayer == 2) {
             player2Score++
         }
 
         // Update score UI
         updateScore()
 
+        // Update collapsed square's UI
+        updateGridCellUI(row, col)
+
         // Distribute particles to adjacent squares (up, down, left, right)
         listOf(Pair(row - 1, col), Pair(row + 1, col), Pair(row, col - 1), Pair(row, col + 1)).forEach { (r, c) ->
             if (r in 0 until gridSize && c in 0 until gridSize) {
-                grid[r][c].particleCount++
+                val adjacentSquare = grid[r][c]
+                adjacentSquare.particleCount++
+                if (adjacentSquare.owner == null) {
+                    adjacentSquare.owner = collapsingPlayer // Set owner to the collapsing player if it was neutral
+                }
                 updateGridCellUI(r, c)
                 // Check for further collapses
-                if (grid[r][c].particleCount >= maxParticles) {
+                if (adjacentSquare.particleCount >= maxParticles) {
                     handleCollapse(r, c)
                 }
             }
@@ -149,7 +156,13 @@ class GameActivity : AppCompatActivity() {
         val cellImageView = findViewById<ImageView>(cellImageViewId)
 
         cellTextView.text = "${grid[row][col].particleCount}"
-        cellImageView.setBackgroundResource(if (currentPlayer == 1) R.drawable.green_circle else R.drawable.red_circle_svgrepo_com)
+        cellImageView.setImageDrawable(
+            when (grid[row][col].owner) {
+                1 -> ContextCompat.getDrawable(this, R.drawable.green_circle)
+                2 -> ContextCompat.getDrawable(this, R.drawable.red_circle_svgrepo_com)
+                else -> ContextCompat.getDrawable(this, R.drawable.blue_circle_svgrepo_com) // Use a drawable for an empty cell
+            }
+        )
     }
 
     // Switch the player turn
@@ -161,10 +174,5 @@ class GameActivity : AppCompatActivity() {
     fun isGameOver(): Boolean {
         return player1Score >= 10 || player2Score >= 10 ||
                 grid.all { row -> row.all { it.particleCount > 0 } }
-    }
-
-    // Get current player turn
-    fun getCurrentPlayer(): Int {
-        return currentPlayer
     }
 }

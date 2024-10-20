@@ -8,17 +8,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class playActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_play)
 
-        val next : Button = findViewById(R.id.nextBtn)
+        val playBtn = findViewById<Button>(R.id.playBtn)
 
-        next.setOnClickListener {
-            val intent = Intent(this,playActivity::class.java)
-            startActivity(intent)
+        playBtn.setOnClickListener {
+            val i= Intent(this,GameActivity::class.java)
+            startActivity(i)
+            finish()
         }
     }
 }

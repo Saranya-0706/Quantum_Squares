@@ -1,19 +1,139 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#90EB9292">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantum Squares Rules"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="24dp"
+            android:textColor="@android:color/black"/>
+
+        <!-- Rule 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Grid Setup:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The game is played on a 5x5 grid.\n• Each square can hold up to 4 quantum particles.\n• Initially, all squares are empty."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#2A2929"/>
+
+        <!-- Rule 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Turn Structure:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Players take turns placing 1 quantum particle into any empty or partially filled square.\n• Players can place particles in neutral squares or squares they already own.\n• A square becomes \n controlled by a player when they add the 4th particle to that square, giving the player 1 point."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#2A2929"/>
+
+        <!-- Rule 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Collapse Mechanism:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• When a square reaches 4 particles, it collapses and redistributes its particles to the adjacent squares.\n• After collapsing, the square returns to a neutral state, losing control. However, the player retains the point for having controlled it.\n• If particles move to an opponent’s square, the opponent retains control of their square."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#2A2929"/>
+
+        <!-- Rule 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Chain Reactions:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• If an adjacent square reaches 4 particles due to redistribution, it collapses as well, causing a chain reaction."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#2A2929"/>
+
+        <!-- Rule 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Game End:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• The game ends when a player controls 10 squares, or no more moves are possible.\n• The player with the most controlled squares wins."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#2A2929"/>
+
+        <!-- Rule 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Objective:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Players must control squares, manage collapses, and strategize to dominate the grid."
+            android:textSize="16sp"
+            android:textColor="#2A2929"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+    </LinearLayout>
+</ScrollView>

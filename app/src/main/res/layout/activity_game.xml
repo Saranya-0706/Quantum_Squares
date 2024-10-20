@@ -54,18 +54,18 @@
                     android:id="@+id/imageView1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/green_circle" />
+                    android:src="@drawable/blue_circle_svgrepo_com" />
 
                 <TextView
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 1"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 2 -->
+            <!--  2 -->
             <LinearLayout
                 android:id="@+id/cell2"
                 android:layout_width="0dp"
@@ -82,18 +82,19 @@
                     android:id="@+id/imageView2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                     />
+                    android:src="@drawable/blue_circle_svgrepo_com"
+                    />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 2"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 3 -->
+            <!--  3 -->
             <LinearLayout
                 android:id="@+id/cell3"
                 android:layout_width="0dp"
@@ -110,18 +111,19 @@
                     android:id="@+id/imageView3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 3"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 4 -->
+            <!--  4 -->
             <LinearLayout
                 android:id="@+id/cell4"
                 android:layout_width="0dp"
@@ -138,18 +140,19 @@
                     android:id="@+id/imageView4"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 4"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 5 -->
+            <!--  5 -->
             <LinearLayout
                 android:id="@+id/cell5"
                 android:layout_width="0dp"
@@ -166,18 +169,19 @@
                     android:id="@+id/imageView5"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 5"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 6 -->
+            <!--  6 -->
             <LinearLayout
                 android:id="@+id/cell6"
                 android:layout_width="0dp"
@@ -194,18 +198,19 @@
                     android:id="@+id/imageView6"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 6"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 7 -->
+            <!--  7 -->
             <LinearLayout
                 android:id="@+id/cell7"
                 android:layout_width="0dp"
@@ -222,18 +227,19 @@
                     android:id="@+id/imageView7"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 7"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 8 -->
+            <!--  8 -->
             <LinearLayout
                 android:id="@+id/cell8"
                 android:layout_width="0dp"
@@ -250,18 +256,19 @@
                     android:id="@+id/imageView8"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 8"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 9 -->
+            <!--  9 -->
             <LinearLayout
                 android:id="@+id/cell9"
                 android:layout_width="0dp"
@@ -278,18 +285,19 @@
                     android:id="@+id/imageView9"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 9"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 10 -->
+            <!--  10 -->
             <LinearLayout
                 android:id="@+id/cell10"
                 android:layout_width="0dp"
@@ -306,18 +314,19 @@
                     android:id="@+id/imageView10"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 10"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 11 -->
+            <!--  11 -->
             <LinearLayout
                 android:id="@+id/cell11"
                 android:layout_width="0dp"
@@ -334,18 +343,19 @@
                     android:id="@+id/imageView11"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 11"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 12 -->
+            <!--  12 -->
             <LinearLayout
                 android:id="@+id/cell12"
                 android:layout_width="0dp"
@@ -362,18 +372,19 @@
                     android:id="@+id/imageView12"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 12"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 13 -->
+            <!--  13 -->
             <LinearLayout
                 android:id="@+id/cell13"
                 android:layout_width="0dp"
@@ -390,18 +401,19 @@
                     android:id="@+id/imageView13"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 13"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 14 -->
+            <!--  14 -->
             <LinearLayout
                 android:id="@+id/cell14"
                 android:layout_width="0dp"
@@ -418,18 +430,19 @@
                     android:id="@+id/imageView14"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 14"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 15 -->
+            <!--  15 -->
             <LinearLayout
                 android:id="@+id/cell15"
                 android:layout_width="0dp"
@@ -446,18 +459,19 @@
                     android:id="@+id/imageView15"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 15"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 16 -->
+            <!--  16 -->
             <LinearLayout
                 android:id="@+id/cell16"
                 android:layout_width="0dp"
@@ -474,18 +488,19 @@
                     android:id="@+id/imageView16"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 16"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 17 -->
+            <!--  17 -->
             <LinearLayout
                 android:id="@+id/cell17"
                 android:layout_width="0dp"
@@ -502,18 +517,19 @@
                     android:id="@+id/imageView17"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 17"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 18 -->
+            <!--  18 -->
             <LinearLayout
                 android:id="@+id/cell18"
                 android:layout_width="0dp"
@@ -530,18 +546,19 @@
                     android:id="@+id/imageView18"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 18"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 19 -->
+            <!--  19 -->
             <LinearLayout
                 android:id="@+id/cell19"
                 android:layout_width="0dp"
@@ -558,18 +575,19 @@
                     android:id="@+id/imageView19"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 19"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 20 -->
+            <!--  20 -->
             <LinearLayout
                 android:id="@+id/cell20"
                 android:layout_width="0dp"
@@ -586,18 +604,19 @@
                     android:id="@+id/imageView20"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 20"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 21 -->
+            <!--  21 -->
             <LinearLayout
                 android:id="@+id/cell21"
                 android:layout_width="0dp"
@@ -614,18 +633,19 @@
                     android:id="@+id/imageView21"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView21"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 21"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 22 -->
+            <!--  22 -->
             <LinearLayout
                 android:id="@+id/cell22"
                 android:layout_width="0dp"
@@ -642,18 +662,19 @@
                     android:id="@+id/imageView22"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView22"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 22"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 23 -->
+            <!--  23 -->
             <LinearLayout
                 android:id="@+id/cell23"
                 android:layout_width="0dp"
@@ -670,18 +691,19 @@
                     android:id="@+id/imageView23"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 23"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 24 -->
+            <!--  24 -->
             <LinearLayout
                 android:id="@+id/cell24"
                 android:layout_width="0dp"
@@ -698,18 +720,19 @@
                     android:id="@+id/imageView24"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 24"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
-            <!-- Cell 25 -->
+            <!--  25 -->
             <LinearLayout
                 android:id="@+id/cell25"
                 android:layout_width="0dp"
@@ -726,37 +749,21 @@
                     android:id="@+id/imageView25"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:src="@drawable/blue_circle_svgrepo_com"
                      />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cell 25"
+                    android:text=" "
                     android:textSize="16sp"
                     android:gravity="center" />
             </LinearLayout>
 
         </GridLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Player 1 Score : "
-                android:textSize="20sp"
-                android:layout_marginTop="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintTop_toBottomOf="@id/gridLayout"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="16dp"/>
+
             <TextView
                 android:id="@+id/player1Score"
                 android:layout_width="wrap_content"
@@ -772,26 +779,8 @@
                 app:layout_constraintTop_toBottomOf="@id/gridLayout"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="16dp"/>
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:orientation="horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Player 2 Score : "
-                android:textSize="20sp"
-                android:layout_marginTop="16dp"
-                android:textStyle="bold"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintTop_toBottomOf="@id/gridLayout"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="16dp"/>
+
             <TextView
                 android:id="@+id/player2Score"
                 android:layout_width="wrap_content"
@@ -807,7 +796,7 @@
                 app:layout_constraintTop_toBottomOf="@id/gridLayout"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="16dp"/>
-        </LinearLayout>
+
 
 
     </LinearLayout>
